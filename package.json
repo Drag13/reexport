@@ -1,0 +1,17 @@
+{
+  "name": "reex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build & node ./dist/index",
+    "build": "npm run tsc -p",
+    "tsc": "tsc"
+  },
+  "author": "Drag13",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7",
+    "customlib": "0.0.1"
+  }
+}
